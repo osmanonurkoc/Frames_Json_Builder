@@ -1,10 +1,18 @@
 # Frames_Json_Builder
-Json file builder for Jahir Fiquitiva's Frames Dashboard
+Json file builder for [Jahir Fiquitiva's](https://github.com/jahirfiquitiva) [Frames Dashboard](https://github.com/jahirfiquitiva/Frames)
 This tool could help you create json file from wallpaper folders.
 
 ## Installation
 
 #### Dependencies
+
+##### Windows
+There is currently no native script for windows. But you can use the script with [WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#2-install-wsl). (Install Ubuntu 22.04 for install exa without problem.)
+```bash
+sudo apt-get install nano sed exa
+```
+
+##### Ubuntu
 ```bash
 sudo apt-get install nano sed exa
 ```
@@ -38,7 +46,9 @@ USERNAME=github username
 REPO=github repository name
 WALLFOLDER=parent directory name of the collections
 ```
-after fill the variables press ctrl+x and save configuration file.
+After fill the variables press ctrl+x and save configuration file. Wait for the script finishes. Then your wallpapers.json file will be in root folder.
+
+
 #### Naming scheme
 - All words must begin with a capital letter.
 - Use underscores instead of spaces.
@@ -48,6 +58,8 @@ after fill the variables press ctrl+x and save configuration file.
 ## Help
 #### How to change Configuration file
 Just delete config.cfg from file_lists directory. After run script it recreate new config file.
+#### I'm having trouble creating the configuration file
+[Nano Shortcuts](https://nano-editor.org/dist/latest/cheatsheet.html) for how to use text editor while creating configuration file.
 #### How to change type of wallpaper license.
 Edit license line in ./Frames_Json_Builder/Scheme/Scheme.json file.
 ### License
