@@ -1,6 +1,6 @@
 # Frames_Json_Builder
 Json file builder for [Jahir Fiquitiva's](https://github.com/jahirfiquitiva) [Frames Dashboard](https://github.com/jahirfiquitiva/Frames)
-This tool could help you create json file from wallpaper folders.
+This tool could help you create json file from wallpaper folders. Currently only works for projects hosted on GitHub.
 
 ## Installation
 
